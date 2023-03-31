@@ -1,5 +1,3 @@
-/* Splash */
-
 /* Splits background into two colors and makes it fit the page */
 body, .section{
      background-image: linear-gradient(to right, #F7ede2, #f7ede2 50%, #a5a58d 50%, #a5a58d);
@@ -64,7 +62,7 @@ img {
     h3{
       font-size: 16px;
     }
-    p, li{
+    p, li, .phone, .copyright{ 
         font-size:12px;
     }
 }
@@ -72,7 +70,7 @@ img {
     h3{
       font-size: 20px;
     }
-    p, li{
+    p, li, .phone, .copyright{
         font-size:14px;
     }
 }
@@ -80,7 +78,7 @@ img {
     h3{
       font-size: 24px;
     }
-    p, li{
+    p, li, .phone, .copyright{
         font-size:16px;
     }
 }
