@@ -1,0 +1,102 @@
+/* Splash */
+
+/* Splits background into two colors and makes it fit the page */
+body, .section{
+     background-image: linear-gradient(to right, #F7ede2, #f7ede2 50%, #a5a58d 50%, #a5a58d);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    display:flex;
+    align-items: center;
+}
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom{
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand{
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+}
+
+.section, .about-me{
+    display: flex;
+    width:80%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+  }
+
+   /* Responsive font */
+@media (min-width:768px) {
+    h3{
+      font-size: 16px;
+    }
+    p, li{
+        font-size:12px;
+    }
+}
+@media (min-width:1024px) {
+    h3{
+      font-size: 20px;
+    }
+    p, li{
+        font-size:14px;
+    }
+}
+@media (min-width:1280px) {
+    h3{
+      font-size: 24px;
+    }
+    p, li{
+        font-size:16px;
+    }
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+}
+
+.proj-img{
+  border: 1px solid #ddd;
+  border-radius: 4px;  
+  padding: 5px;
+  width: 100%;
+}
+
+.proj-img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
